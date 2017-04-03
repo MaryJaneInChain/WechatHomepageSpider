@@ -3,6 +3,13 @@
 ## Synopsis
 A web crawler for Wechat homepage, written in **perl**
 
+## Dependencies
+* Switch
+* Encode
+* LWP
+* JSON
+* HTML::TreeBuilder
+
 ## How to use
 ![Screenshot](https://github.com/MaryJaneInChain/WechatHomepageSpider/raw/master/docs/screenshot.png)
 ```
