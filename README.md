@@ -4,6 +4,7 @@
 A web crawler for Wechat homepage, written in **perl**
 
 ## How to use
+![Screenshot](https://github.com/MaryJaneInChain/WechatHomepageSpider/raw/master/docs/screenshot.png)
 ```
 # sample.pl
 #!/bin/env perl
