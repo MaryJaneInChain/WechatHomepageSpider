@@ -1,7 +1,7 @@
 # WechatHomepageSpider
 
 ## Synopsis
-A web crawler for Wechat homepage, written in perl
+A web crawler for Wechat homepage, written in **perl**
 
 ## How to use
 ```
@@ -25,5 +25,5 @@ $ perl ./sample.pl
 ```
 
 ## TODO List
-Add special characters handle
-Multithreading
+* Add special characters handle
+* Multithreading
