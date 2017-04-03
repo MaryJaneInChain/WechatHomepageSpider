@@ -33,13 +33,13 @@ the downloaded files will be like
 ```
 Homepage Title ─┬─ Channel 1
                 ├─ Channel 2
-				├─ Channel 3
-				└─ Channel 4 ─┬─ Article 1.txt 
-				              ├─ Article 1
-							  ├─ Article 2.txt
-							  └─ Article 2     ─┬─ cover.jpg
-							                    ├─ img_0.jpg
-												└─ img_1.jpg
+                ├─ Channel 3
+                └─ Channel 4 ─┬─ Article 1.txt 
+                              ├─ Article 1
+                              ├─ Article 2.txt
+                              └─ Article 2     ─┬─ cover.jpg
+                                                ├─ img_0.jpg
+                                                └─ img_1.jpg
 ```
 
 ## TODO List
