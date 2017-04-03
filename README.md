@@ -6,7 +6,7 @@ A web crawler for Wechat homepage, written in **perl**
 ## How to use
 ![Screenshot](https://github.com/MaryJaneInChain/WechatHomepageSpider/raw/master/docs/screenshot.png)
 ```
-# sample.pl
+# example.pl
 #!/bin/env perl
 
 use strict;
@@ -22,12 +22,24 @@ WechatHomepageSpider::download_homepage($biz, $hid, $agent_name);
 ```
 and then
 ```
-$ chmod 755 ./sample.pl
-$ ./sample.pl
+$ chmod 755 ./example.pl
+$ ./example.pl
 ```
 or
 ```
 $ perl ./sample.pl
+```
+the downloaded files will be like
+```
+Homepage Title ─┬─ Channel 1
+                ├─ Channel 2
+				├─ Channel 3
+				└─ Channel 4 ─┬─ Article 1.txt 
+				              ├─ Article 1
+							  ├─ Article 2.txt
+							  └─ Article 2     ─┬─ cover.jpg
+							                    ├─ img_0.jpg
+												└─ img_1.jpg
 ```
 
 ## TODO List
