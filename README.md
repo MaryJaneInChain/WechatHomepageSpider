@@ -27,7 +27,7 @@ $ ./example.pl
 ```
 or
 ```
-$ perl ./sample.pl
+$ perl ./example.pl
 ```
 the downloaded files will be like
 ```
