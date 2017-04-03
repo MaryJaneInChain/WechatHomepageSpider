@@ -6,7 +6,7 @@ A web crawler for Wechat homepage, written in **perl**
 ## How to use
 ```
 # sample.pl
-#!/usr/bin/perl
+#!/bin/env perl
 
 use strict;
 use warnings;
@@ -20,6 +20,11 @@ WechatHomepageSpider::scan_homepage($biz, $hid, $agent_name);
 WechatHomepageSpider::download_homepage($biz, $hid, $agent_name);
 ```
 and then
+```
+$ chmod 755 ./sample.pl
+$ ./sample.pl
+```
+or
 ```
 $ perl ./sample.pl
 ```
