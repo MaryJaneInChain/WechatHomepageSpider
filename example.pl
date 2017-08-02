@@ -1,5 +1,6 @@
 #!/bin/env perl
 
+use lib '.';
 use strict;
 use warnings;
 use WechatHomepageSpider;
